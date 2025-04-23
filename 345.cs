@@ -20,4 +20,4 @@ public class Solution {
         return new string(CharacterInS);
     }
 }
-//Runtime 19ms
+//Runtime: 19ms
