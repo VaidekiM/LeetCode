@@ -40,7 +40,9 @@ public class Solution {
                 (i == flowerbed.Length - 1 || flowerbed[i + 1] == 0)) {
                 
                 flowerbed[i] = 1;
-                count++;
+                count++; 
+                //Added this to improve the run time: Runtime improved 100% from previous version
+                if (count >= n) return true;
                 i++;
             }
         }
